@@ -51,7 +51,7 @@ We are standardizing column names across all three datasets to ensure consistenc
 
 ```{r}
 
-#Standardize column names
+#Standardizing column names
 setnames(usa, old = c("#country+name", "#country+code", "#date+year", 
                       "#indicator+name", "#indicator+code", 
                       "#indicator+value+num"),
